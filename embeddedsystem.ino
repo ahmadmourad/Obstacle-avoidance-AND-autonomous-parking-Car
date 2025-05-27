@@ -244,7 +244,7 @@ void obstacleAvoidance() {
   }
 }
 
-int check() {  //Chicking the sutable parking space for the car width
+int check() {  //Checking the sutable parking space for the car width
   int Flag = 0;
   while (UFun(TRIG2, ECHO2) > 14) {
     moveForward();
